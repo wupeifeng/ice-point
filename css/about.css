@@ -1,0 +1,353 @@
+/*about页面*/
+.clear{
+    clear: both;
+}
+.aboutcontainer{
+    height:100px;
+    position:relative;
+}
+.aboutcontainer a{
+    position: absolute;
+    width:90px;
+    height:65px;
+    background:url(../img/us_btn.png) no-repeat;
+    bottom:-12px;
+    transition:height 0.5s;
+    -webkit-transition:height 0.5s;
+    -moz-transform:height 0.5s;
+}
+.aboutcontainer a.btnone{
+    left:270px;
+    background-position:0px 0px;
+}
+.aboutcontainer a.btnone:hover{
+    background-position-y: -100px;
+    height: 95px;
+}
+
+.aboutcontainer a.btntwo{
+    left:375px;
+    background-position:-104px 0px;
+}
+.aboutcontainer a.btntwo:hover{
+    background-position-y: -100px;
+    height: 95px;
+}
+
+.aboutcontainer a.btnthree{
+    left:480px;
+    background-position:-207px 0px;
+}
+.aboutcontainer a.btnthree:hover{
+    background-position-y: -100px;
+    height: 95px;
+}
+
+.aboutcontainer a.btnfour{
+    left:585px;
+    background-position:-309px 0px;
+}
+.aboutcontainer a.btnfour:hover{
+    background-position-y: -100px;
+    height: 95px;
+}
+
+.aboutcontainer a.btnone_fire{
+    background-position:0px -100px;
+    height:95px;
+}
+
+.aboutcontainer a.btntwo_fire{
+    background-position:-104px -100px;
+    height:95px;
+}
+
+.aboutcontainer a.btnthree_fire{
+    background-position:-207px -100px;
+    height:95px;
+}
+
+.aboutcontainer a.btnfour_fire{
+    background-position:-309px -100px;
+    height:95px;
+}
+
+.aboutcontent{
+    width:100%;
+    height:15px;
+    line-height:15px;
+    position:absolute;
+    left:0px;
+    top:100px;
+    z-index:300;
+    background:url(../img/about_banner_bg_top.png) top center no-repeat;
+}
+
+.aboutbanner{
+    width:935px;
+    margin-top:12px;
+}
+
+.aboutbanner img.fl{
+    margin:-2px 0px -3px 25px;
+}
+
+.aboutbanner img.fr{
+    margin:3px 368px 0px 0px;
+}
+
+.aboutbanner div.fr{
+    margin:10px 46px 0px 0px;
+    width:545px;
+}
+
+.aboutbanner_text,.aboutbanner_text a{
+    line-height:23px;
+    color:#808080;
+    font-size:12px;
+    text-align: left;
+}
+
+.box_t{
+    background:url(../img/box_t.png);
+    height:23px;
+}
+
+.box_m{
+    background:url(../img/box_m.png) repeat;
+}
+
+.box_b{
+    background:url(../img/box_b.png) bottom left;
+    height:23px;
+}
+
+.aboutbanner2{
+    margin-top:22px;
+    position:relative;
+    line-height:23px;
+}
+
+/*小三角*/
+span.up1{
+    width:27px;
+    height:14px;
+    top:-13px;
+    left:152px;
+    line-height:15px;
+    position:absolute;
+    background:url(../img/aboutus_up.png);
+}
+
+/*Top图标*/
+span.up2{
+    width:80px;
+    height:87px;
+    top:-11px;
+    right:65px;
+    position:absolute;
+    background:url(../img/aboutus_up2.png);
+}
+
+.aboutbanner2 .aboutbanner_text a{
+    color:#323232;
+    font-size:12px;
+}
+
+.aboutbanner2 .aboutbanner_text a:hover{
+    color:#80b400;
+    text-decoration:none;
+}
+
+.aboutbanner2 div.shu{
+    width:260px;
+    margin-left:10px;
+    padding:0px 20px 0px 20px;
+    background:url(../img/about_shu.png) right top repeat-y;
+
+}
+
+.aboutbanner2 div.shubgnone{
+    background:none;
+}
+
+.aboutbanner3{
+    height:80px;
+    margin-top:20px;
+    background:url(../img/about_b3.png) 55px top  no-repeat;
+}
+.aboutbanner4 {
+    margin-top:0px;
+    margin-bottom:30px;
+}
+/*about页面End*/
+
+/*about页面01*/
+.member{
+    width: 935px;
+    margin: auto;
+    position:relative;
+    top: 12px;
+}
+.member .logo1{
+    width:292px;
+    height:160px;
+    margin:1px 26px 0px 23px;
+}
+.member .words{
+    width:550px;
+    height:76px;
+}
+.member .logo_name{
+    margin-bottom:10px;
+}
+.label_span{
+    width: 99px;
+    height: 49px;
+    position: absolute;
+    display: block;
+    background:url(../img/aboutus_p_label.png);
+    background-position: 0px 0px;
+    margin-left: -5px;
+    margin-top: 15px;
+}
+.aboutus_text,.aboutus_text a{
+    line-height:25px;
+    color:#808080;
+    font-size:12px;
+    text-align: left;
+}
+.member .aboutus_tool{
+    margin-left:460px;
+    float:left;
+    display:inline;
+    height:40px;
+}
+.member .aboutus_tool span{
+    height:40px;
+    width:40px;
+    background:url(../img/member_tool.png);
+    float:left;
+    display:block;
+    cursor: pointer;
+    position: relative;
+}
+.member .aboutus_tool span.fr{
+    background-position:-48px 0px;
+    margin-left:10px;
+}
+.member .aboutus_tool2 span{
+    background-image:url(../img/aboutus_p_tool.png);
+}
+.member .aboutus_tool .tool em{
+    height:40px;
+    width:40px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    background:url(../img/aboutus_p_tool.png) no-repeat 0px -40px;
+    transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+ }
+.member .aboutus_tool .tool1 em{
+    height:40px;
+    width:40px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    background:url(../img/aboutus_p_tool.png) no-repeat -48px -40px;
+    transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+.member .aboutus_tool .tool em:hover,
+.member .aboutus_tool .tool1 em:hover{
+    opacity: 1;
+}
+.member_top{
+    margin-top: 30px;
+}
+/*about页面01End*/
+
+/*about页面02*/
+.aboutcontainers{
+    width:935px;
+    margin-top:12px;
+}
+.aboutcontainers img.fl{
+    margin:-3px 0px 0px 25px;
+}
+.aboutcontainers img.fr{
+    margin:5px 365px 0px 0px;
+}
+.aboutcontainers div.fr{
+    width:545px;
+    margin:10px 45px 0px 0px;
+}
+/*about页面02End*/
+
+/*about页面03*/
+.member .aboutus_tool span.fire_1{
+    background-position: 0px -41px;
+}
+.member .words .text2{
+    display:none;
+}
+.member .aboutus_tool .btn em{
+    height:40px;
+    width:40px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    float:left;
+    display:block;
+    cursor: pointer;
+    position: absolute;
+    background:url(../img/member_tool.png) no-repeat 0px -40px;
+    transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+.member .aboutus_tool .btn1 em{
+    height:40px;
+    width:40px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    float:left;
+    display:block;
+    cursor: pointer;
+    position: absolute;
+    background:url(../img/member_tool.png) no-repeat -48px -40px;
+    transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+.member .label_span em{
+    width: 99px;
+    height: 49px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    background:url(../img/aboutus_p_label.png) no-repeat 0px -49px;
+    transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+.member .aboutus_tool .btn1 em:hover,
+.member .aboutus_tool .btn em:hover,
+.member .label_span em:hover
+{
+    opacity: 1;
+}
+/*about页面03End*/

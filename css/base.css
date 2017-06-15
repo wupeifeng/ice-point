@@ -1,0 +1,398 @@
+@charset "UTF-8";
+
+/*初始化开始*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img{
+    margin:0;
+    padding:0;
+}
+
+fieldset, img, button{
+	border:none; 
+	padding:0;
+	margin:0;
+	outline-style:none;
+}
+
+ul, ol{ 
+	list-style:none;
+}
+
+input{ 
+	padding-top:0; 
+	padding-bottom:0; 
+	font-family: "微软雅黑","宋体";
+}
+
+select, input{ 
+	vertical-align:middle;
+}
+	
+select, input, textarea{ 
+	font-size:12px; 
+	margin:0; 
+}
+
+textarea{ 
+	resize:none; 
+} 
+
+img{
+	border:0; 
+	vertical-align:middle; 
+} 
+
+table{
+	border-collapse:collapse; 
+}
+
+a{
+    text-decoration:none;
+    color:#000;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+body{
+    text-align:center;
+    font-size:12px;
+    font-family:"微软雅黑","宋体";
+    background:url(../img/bg_body2.png) repeat-x #f2f2f2;
+}
+/*初始化结束*/
+
+/*左浮动*/
+.fl{
+    float:left;
+}
+
+/*右浮动*/
+.fr{
+    float:right;
+}
+
+.clearfix:before,.clearfix:after{
+    content:"";
+    display:table;
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+.clearfix{
+    *zoom:1;
+}
+
+.container{
+    margin:0 auto;
+    width:935px;
+}
+
+/*header开始*/
+.header{
+    width:100%;
+    height:65px;
+    line-height:65px;
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:999;
+    overflow:hidden;
+    background:url(../img/bg_head.png) repeat-x;
+}
+
+.header .container .logo{
+    width:182px;
+    height:38px;
+    background:url(../img/logo.png) no-repeat;
+    position: relative;
+    margin-top:10px;
+}
+
+.header .container .logo span{
+    width:182px;
+    height:38px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background:url(../img/logo.png) no-repeat 0 -38px;
+    transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+
+.header .container .logo span:hover{
+    opacity: 1;
+}
+
+.header .container .fr{
+    width:484px;
+    height:40px;
+    line-height:40px;
+    margin-top:8px;
+}
+
+.header .container .fr a{
+    margin-right:40px;
+    float:left;
+    position: relative;
+    height:40px;
+    background:url(../img/nav.png) no-repeat;
+}
+
+.header .container .fr a.nav1{
+    width:44px;
+    background-position:-1px 0px;
+}
+
+.header .container .fr a.nav2{
+    width:42px;
+    background-position:-93px 0px;
+}
+
+.header .container .fr a.nav3{
+    width:85px;
+    background-position:-177px 0px;
+}
+
+.header .container .fr a.nav4{
+    width:80px;
+    background-position:-303px 0px;
+}
+
+.header .container .fr a.nav5{
+    margin-right:0px;
+    width:68px;
+    background-position:-427px 0px;
+}
+
+.header .container .fr a.nav1_map{
+    background-position:-1px -41px;
+}
+
+.header .container .fr a.nav2_map{
+    background-position:-93px -41px;
+}
+
+.header .container .fr a.nav3_map{
+    background-position:-177px -41px;
+}
+
+.header .container .fr a.nav4_map{
+    background-position:-303px -41px;
+}
+
+.header .container .fr a.nav5_map{
+    background-position:-427px -41px;
+}
+
+.header .container .fr span{
+    height:40px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background:url(../img/nav.png) no-repeat;
+    transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+ 
+ .header .container .fr .nav1 span{
+    width:44px;
+    background-position:-1px -41px;
+}
+
+.header .container .fr .nav2 span{
+    width:42px;
+    background-position:-93px -41px;
+}
+
+.header .container .fr .nav3 span{
+    width:85px;
+    background-position:-177px -41px;
+}
+
+.header .container .fr .nav4 span{
+    width:80px;
+    background-position:-303px -41px;
+}
+
+.header .container .fr .nav5 span{
+    width:68px;
+    background-position:-427px -41px;
+}
+
+.header .container .fr span:hover{
+    opacity: 1;
+}
+/*header结束*/
+
+/*banner开始*/
+.banner{
+    width:100%;
+    height:auto;
+    padding-top:106px;
+    overflow: hidden;
+    background:url(../img/bg_banner.jpg) center top no-repeat;
+}
+
+.banner .title{
+    width: 566px;
+    height:130px;
+    margin:auto;
+    display:block;
+}
+
+.banner .site-map{
+    height:35px;
+    line-height:35px;
+    background:url(../img/nav2.png);
+    font-size:10px;
+    padding-left:6px;
+    overflow: hidden;
+}
+
+.banner .site-map .container,.banner .site-map .container a{
+    color:#787878;
+}
+
+.banner .site-map .container a:hover{
+    text-decoration:none;
+    color:#6fa605;
+}
+
+.banner .site-map .container li{
+    float:left;
+    display:inline;
+    margin-right:18px;
+    padding-left:9px;
+    background:url(../img/nav2_c.png) left center no-repeat;
+}
+
+.banner .site-map .container li.location{
+    background:url(../img/nav2_s.png) left center no-repeat;
+    padding-left:11px;
+}
+
+.banner .site-map .container span.fr{
+    padding-right:21px;
+}
+/*banner结束*/
+
+/*footer开始*/
+.footer{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 270px;
+}
+
+.footer .footer-out{
+    height: 92px;
+    background: url(../img/out_line.png) center center repeat-x;
+    margin: 28px 0;
+    text-align: center;
+}
+
+.footer .footer-out .m{
+    width: 600px;
+    height: 92px;
+    margin: 0 auto;
+}
+
+.footer .footer-out .m a{
+    height: 92px;
+    width: 92px;
+    float: left;
+    margin-right: 34px;
+    position: relative;
+    text-decoration: none;
+    background: url(../img/out_btn.png) no-repeat;
+}
+
+.footer .footer-out .m .footer-out-btn1{
+    background-position: 0 0;
+}
+
+.footer .footer-out .m .footer-out-btn2{
+    background-position: -125px 0;
+}
+
+.footer .footer-out .m .footer-out-btn3{
+    background-position: -251px 0;
+}
+
+.footer .footer-out .m .footer-out-btn4{
+    background-position: -378px 0;
+}
+
+.footer .footer-out .m .footer-out-btn5{
+    background-position: -502px 0;
+    margin-right: 0;
+}
+
+.footer .footer-out .m span{
+    height: 92px;
+    width: 92px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background:url(../img/out_btn.png) no-repeat;
+    transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+
+.footer .footer-out .m .footer-out-btn1 span{
+    background-position: 0 -93px;
+}
+
+.footer .footer-out .m .footer-out-btn2 span{
+    background-position: -125px -93px;
+}
+
+.footer .footer-out .m .footer-out-btn3 span{
+    background-position: -251px -93px;
+}
+
+.footer .footer-out .m .footer-out-btn4 span{
+    background-position: -378px -93px;
+}
+
+.footer .footer-out .m .footer-out-btn5 span{
+    background-position: -502px -93px;
+}
+
+.footer .footer-out .m span:hover{
+    opacity: 1;
+}
+
+.footer .footer-copy{
+    color: rgb(146,146,146);
+    text-align: center;
+}
+
+.footer .footer-copy span{
+    color: rgb(146,190,36);
+}
+
+.footer .footer-bottom{
+    width: 100%;
+    height: 267px;
+    position: fixed;
+    left: 0;
+    z-index: 999;
+    background: url(../img/bg_foot.png) center top no-repeat;
+    transition: 1s;
+	-moz-transform: 1s;
+	-webkit-transition: 1s;
+}
+/*footer结束*/

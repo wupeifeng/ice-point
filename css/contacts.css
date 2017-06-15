@@ -1,0 +1,249 @@
+/*contacts正文开始*/
+.contacts {
+    width: 100%;
+    text-align: center;
+}
+.w {
+    width: 935px;
+    margin: 0 auto;
+}
+.clear {
+    clear: both;
+}
+
+.contact-container {
+    float: left;
+}
+.contact-center {
+    text-align: center;
+    padding: 63px 0 20px;
+}
+.contact-center .xu {
+    padding: 20px 0 0 350px;
+}
+.contact-center .xu a {
+    display: block;
+    width: 252px;
+    height: 67px;
+    background: url(../img/contact_btn.png) top center;
+    position: relative;
+    text-decoration: none;
+}
+.contact-center .xu a span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    top: 0px;
+    left: 0px;
+    background: url(../img/contact_btn.png) 0 -200.5px;
+    transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+.contact-center .xu a span:hover {
+    opacity: 1;
+}
+
+/*正文上半分割*/
+.contact-box-t {
+    background: url(../img/box_t.png);
+    height: 23px;
+}
+
+/*正文中间部分*/
+.contact-box-m {
+    background: url(../img/box3_m.png) repeat-y;
+    padding: 0 29px 0 9px;
+}
+.contact-box-m a {
+    float: left;
+    display: inline-block;
+    width:272px;
+    height: 146px;
+    line-height: 146px;
+    margin-right: 29px;
+    background: url(../img/lx.png) no-repeat;
+    position: relative;
+}
+.contact-box-m span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    background: url(../img/lx.png);
+ }
+.contact-box-m a.contact-box-m-b1 {
+    background-position: 0 -14px;
+    margin-left: 20px;
+}
+.contact-box-m .contact-box-m-span1 {
+    background-position: 0 -195px;
+}
+.contact-box-m .contact-box-m-span1:hover {
+    opacity: 1;
+}
+.contact-box-m a.contact-box-m-b2 {
+    background-position: -301px -14px;
+}
+.contact-box-m .contact-box-m-span2 {
+    background-position: -301px -195px;
+}
+.contact-box-m .contact-box-m-span2:hover {
+    opacity: 1;
+}
+.contact-box-m .contact-box-m-b3 {
+    float: left;
+    display: inline-block;
+    width:272px;
+    height: 146px;
+    line-height: 146px;
+    background: url(../img/lx.png) no-repeat;
+    background-position: -602px -14px;
+    margin-right: 0;
+    position: relative;
+}
+.contact-box-m .contact-box-m-span3 {
+    background-position: -602px -195px;
+}
+.contact-box-m .contact-box-m-span3:hover {
+    opacity: 1;
+}
+
+/*正文下半分割*/
+.contact-box-b {
+    background: url(../img/box_b.png) bottom left;
+    height: 23px;
+}
+
+/*正文表单部分*/
+.contact-f {
+    margin-top: 30px;
+    position: relative;
+}
+.contact-f label {
+    width: 40px;
+    height: 43px;
+    line-height: 43px;
+    margin-bottom: 15px;
+    display: inline;
+    float: left;
+    position: relative;
+    cursor: default;
+}
+.contact-f label .btn-span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-position: 0% -43px;
+    display: none;
+}
+.contact-f input {
+    border: 0;
+    background: url(../img/contact_bg_input.png) top right;
+    height: 43px;
+    line-height: 43px;
+    width: 417px;
+    padding: 0 14px;
+    color: rgb(195,195,195);
+    display: inline;
+    float: left;
+    font: 14px Arial;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+.contact-f textarea {
+    border: 0;
+    background: url(../img/contact_bg_textarea.png) top right;
+    height: 124px;
+    line-height: 30px;
+    overflow: hidden;
+    width: 867px;
+    margin-bottom: 15px;
+    padding: 15px 14px 0;
+    color: rgb(195,195,195);
+    display: inline;
+    float: left;
+    font: 14px Arial;
+}
+.contact-f a {
+    height: 41px;
+    line-height: 41px;
+    width: 161px;
+    background: url(../img/contact_submit.png);
+    position: relative;
+    float: right;
+    display: inline;
+}
+.contact-f .nick-btn, .nick-btn .btn-span {
+    background: url(../img/contact_label_nick.png);
+}
+.contact-f .email-btn {
+    background: url(../img/contact_label_email.png);
+    margin-left: 21px;
+}
+.email-btn .btn-span {
+    background: url(../img/contact_label_email.png);
+}
+.contact-f .tel-btn, .tel-btn .btn-span {
+    background: url(../img/contact_label_tel.png);
+}
+.contact-f .addr-btn {
+    background: url(../img/contact_label_adress.png);
+    margin-left: 21px;
+}
+.addr-btn .btn-span {
+    background: url(../img/contact_label_adress.png);
+}
+.contact-f .xbody-btn {
+    width: 40px;
+    height: 139px;
+    background: url(../img/contact_label_xbody.png);
+    line-height: 139px;
+}
+.contact-f .xbody-btn .btn-span {
+    background: url(../img/contact_label_xbody.png);
+    background-position: 0% -139px;
+}
+.contact-f .contact-f-span {
+    text-align: left;
+    line-height: 20px;
+    color: #C3C3C3;
+    font-size: 12px;
+    position: absolute;
+    overflow: hidden;
+}
+#coBtnNick {
+    top: 11px;
+    left: 55px;
+}
+#coBtnEmail {
+    top: 11px;
+    left: 535px;
+}
+#coBtnTel {
+    top: 70px;
+    left: 55px;
+}
+#coBtnAddr {
+    top: 70px;
+    left: 535px;
+}
+#coBtnXbody {
+    top: 130px;
+    left: 55px;
+    height: 130px;
+}
+.contact-f span p {
+    line-height: 25px;
+}
+/*contacts正文结束*/

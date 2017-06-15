@@ -1,0 +1,282 @@
+/*center开始*/
+.center{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.center .container .center-top{
+	height: 155px;
+}
+
+.center .container .center-top .center-top-t{
+	height: 115px;
+	text-align: center;
+	position: relative;
+}
+
+.center .container .center-top .center-top-t a{
+	background: url(../img/case_btn.png) 0 0 no-repeat;
+    width: 93px;
+    height: 65px;
+    position: absolute;
+    bottom: 0;
+    transition: height 0.5s;
+	-moz-transform: height 0.5s;
+	-webkit-transition: height 0.5s; 
+}
+
+.center .container .center-top .center-top-t a:first-child{
+	background-position: 0px 0px;
+    left: 270px;
+}
+
+.center .container .center-top .center-top-t a:nth-child(2){
+	background-position: -104px 0px;
+    left: 374px;
+}
+
+.center .container .center-top .center-top-t a:nth-child(3){
+	background-position: -207px 0px;
+	overflow: hidden;
+    left: 478px;
+}
+
+.center .container .center-top .center-top-t a:last-child{
+	background-position: -309px 0px;
+    left: 582px;
+}
+
+.center .container .center-top .center-top-t a:first-child:hover,
+.center .container .center-top .center-top-t a:nth-child(2):hover,
+.center .container .center-top .center-top-t a:nth-child(3):hover,
+.center .container .center-top .center-top-t a:last-child:hover{
+	background-position-y: -100px !important;
+    height: 96px !important;
+}
+
+.center .container .center-top .center-top-b{
+	height: 40px;
+	background: url(../img/case_btn_split.png) no-repeat center -10px;
+}
+
+.center .container .center-top .center-top-b ul{
+	width: 110px;
+    float: right;
+    margin-top: 12px;
+    margin-right: 9px;
+}
+
+.center .container .center-top .center-top-b ul li a{
+    width: 12px;
+    height: 12px;
+    float: left;
+    display: inline;
+    margin-left: 2px;
+    color: #000000;
+    background: url(../img/color_btn.png) 0 0;
+}
+
+.center .container .center-top .center-top-b ul li:first-child a{
+	background-position: 0 0;
+}
+
+.center .container .center-top .center-top-b ul li:nth-child(2) a{
+	background-position: -15px 0;
+}
+
+.center .container .center-top .center-top-b ul li:nth-child(3) a{
+	background-position: -30px 0;
+}
+
+.center .container .center-top .center-top-b ul li:nth-child(4) a{
+	background-position: -45px 0;
+}
+
+.center .container .center-top .center-top-b ul li:nth-child(5) a{
+	background-position: -60px 0;
+}
+
+.center .container .center-top .center-top-b ul li:nth-child(6) a{
+	background-position: -75px 0;
+}
+
+.center .container .center-top .center-top-b ul li:last-child a{
+	background-position: -90px 0;
+}
+
+.center .container .center-bottom,
+.center .container .center-bottom .tubiao-box,
+.center .container .center-bottom .color-box,
+.center .container .center-bottom .case{
+	height: auto;
+	padding-top: 12px;
+	overflow: hidden;
+}
+
+.center .container .center-bottom .tubiao-box .webCase,
+.center .container .center-bottom .tubiao-box .interface,
+.center .container .center-bottom .tubiao-box .logo,
+.center .container .center-bottom .tubiao-box .media,
+.center .container .center-bottom .color-box .reds,
+.center .container .center-bottom .color-box .purples,
+.center .container .center-bottom .color-box .blues,
+.center .container .center-bottom .color-box .greens,
+.center .container .center-bottom .color-box .yellows,
+.center .container .center-bottom .color-box .oranges,
+.center .container .center-bottom .color-box .grays{
+	height: auto;
+	display: none;
+}
+
+.center .container .center-bottom .case ul li{
+    width: 262px;
+    height: 145px;
+    float: left;
+    padding: 20px;
+    margin-left: 9px;
+    margin-top: 32px;
+    position: relative;
+    bottom: 32px;
+    background: url(../img/bg_case.png) no-repeat;
+}
+
+.center .container .center-bottom .tubiao-box .webCase ul li,
+.center .container .center-bottom .tubiao-box .interface ul li,
+.center .container .center-bottom .tubiao-box .logo ul li,
+.center .container .center-bottom .tubiao-box .media ul li,
+.center .container .center-bottom .color-box .reds ul li,
+.center .container .center-bottom .color-box .purples ul li,
+.center .container .center-bottom .color-box .blues ul li,
+.center .container .center-bottom .color-box .greens ul li,
+.center .container .center-bottom .color-box .yellows ul li,
+.center .container .center-bottom .color-box .oranges ul li,
+.center .container .center-bottom .color-box .grays ul li{
+	width: 262px;
+    height: 145px;
+    float: left;
+    padding: 20px;
+    margin-left: 9px;
+    margin-top: 32px;
+    position: relative;
+    bottom: 32px;
+    background: url(../img/bg_case.png) no-repeat;
+    animation: myli 0.5s;
+	-moz-animation: myli 0.5s;
+	-webkit-animation: myli 0.5s; 
+	transition: width 0.5s, height 0.5s;
+	-moz-transition: width 0.5s, height 0.5s; 
+	-webkit-transition: width 0.5s, height 0.5s;
+}
+
+@keyframes myli{
+	from{top:1000px;left:1000px;transform:rotate(360deg);}
+	to{top:0;left:0;}
+}
+
+@-moz-keyframes myli{
+	from{top:1000px;left:1000px;-moz-transform:rotate(360deg);}
+	to{top:0;left:0;}
+}
+
+@-webkit-keyframes myli{
+	from{top:1000px;left:1000px;-webkit-transform:rotate(360deg);}
+	to{top:0;left:0;}
+}
+
+.center .container .center-bottom .tubiao-box .webCase ul li img,
+.center .container .center-bottom .tubiao-box .interface ul li img,
+.center .container .center-bottom .tubiao-box .logo ul li img,
+.center .container .center-bottom .tubiao-box .media ul li img,
+.center .container .center-bottom .color-box .reds ul li img,
+.center .container .center-bottom .color-box .purples ul li img,
+.center .container .center-bottom .color-box .blues ul li img,
+.center .container .center-bottom .color-box .greens ul li img,
+.center .container .center-bottom .color-box .yellows ul li img,
+.center .container .center-bottom .color-box .oranges ul li img,
+.center .container .center-bottom .color-box .grays ul li img,
+.center .container .center-bottom .case ul li img{
+	vertical-align: 0;
+}
+
+.center .container .center-bottom .tubiao-box .webCase ul li i,
+.center .container .center-bottom .tubiao-box .interface ul li i,
+.center .container .center-bottom .tubiao-box .logo ul li i,
+.center .container .center-bottom .tubiao-box .media ul li i,
+.center .container .center-bottom .color-box .reds ul li i,
+.center .container .center-bottom .color-box .purples ul li i,
+.center .container .center-bottom .color-box .blues ul li i,
+.center .container .center-bottom .color-box .greens ul li i,
+.center .container .center-bottom .color-box .yellows ul li i,
+.center .container .center-bottom .color-box .oranges ul li i,
+.center .container .center-bottom .color-box .grays ul li i,
+.center .container .center-bottom .case ul li i{
+	display:inline-block;
+	width: 280px;
+	height: 41px;
+	position: absolute;
+	left: 10px;
+	bottom: 0; 
+}
+
+.center .container .center-bottom .tubiao-box .webCase ul li:hover i,
+.center .container .center-bottom .tubiao-box .interface ul li:hover i,
+.center .container .center-bottom .tubiao-box .logo ul li:hover i,
+.center .container .center-bottom .tubiao-box .media ul li:hover i,
+.center .container .center-bottom .color-box .reds ul li:hover i,
+.center .container .center-bottom .color-box .purples ul li:hover i,
+.center .container .center-bottom .color-box .blues ul li:hover i,
+.center .container .center-bottom .color-box .greens ul li:hover i,
+.center .container .center-bottom .color-box .yellows ul li:hover i,
+.center .container .center-bottom .color-box .oranges ul li:hover i,
+.center .container .center-bottom .color-box .grays ul li:hover i,
+.center .container .center-bottom .case ul li:hover i{
+	bottom: -32px;
+	background: url(../img/bg_case_f.png) no-repeat center center;
+}
+
+.center .container .center-bottom .tubiao-box .webCase ul li:hover span,
+.center .container .center-bottom .tubiao-box .interface ul li:hover span,
+.center .container .center-bottom .tubiao-box .logo ul li:hover span,
+.center .container .center-bottom .tubiao-box .media ul li:hover span,
+.center .container .center-bottom .color-box .reds ul li:hover span,
+.center .container .center-bottom .color-box .purples ul li:hover span,
+.center .container .center-bottom .color-box .blues ul li:hover span,
+.center .container .center-bottom .color-box .greens ul li:hover span,
+.center .container .center-bottom .color-box .yellows ul li:hover span,
+.center .container .center-bottom .color-box .oranges ul li:hover span,
+.center .container .center-bottom .color-box .grays ul li:hover span,
+.center .container .center-bottom .case ul li:hover span{
+	width: 262px;
+    height: 148px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    background-color: #000000;
+}
+
+.center .container .center-bottom .tubiao-box .webCase ul li a,
+.center .container .center-bottom .tubiao-box .interface ul li a,
+.center .container .center-bottom .tubiao-box .logo ul li a,
+.center .container .center-bottom .tubiao-box .media ul li a,
+.center .container .center-bottom .color-box .reds ul li a,
+.center .container .center-bottom .color-box .purples ul li a,
+.center .container .center-bottom .color-box .blues ul li a,
+.center .container .center-bottom .color-box .greens ul li a,
+.center .container .center-bottom .color-box .yellows ul li a,
+.center .container .center-bottom .color-box .oranges ul li a,
+.center .container .center-bottom .color-box .grays ul li a,
+.center .container .center-bottom .case ul li a{
+    width: 61px;
+    height: 61px;
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    z-index: 3;
+    opacity: 0;
+    background: url(../img/readmore-icon.png) no-repeat center center;
+}
+/*center结束*/
